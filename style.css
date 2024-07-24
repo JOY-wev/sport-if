@@ -1,0 +1,154 @@
+ul.menu_top li a:hover{
+    /*background-color: rgb(227, 117, 33);*/
+	background-color: #FF6280;
+    color: black;
+    font-size: 20px;
+}
+ul.menu_top li a{ 
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	background-color: #E5E3E4;
+    color: #AA1803;
+    
+    font-size: 20px;
+
+}
+
+ul.menu_top li{
+    float: center;
+}
+.box {
+    display: flex;
+    height: 20rem;
+    gap: 2rem;
+}
+
+.box > div {
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+
+.box > div:hover {
+    flex: 5;
+}
+ul.navi,li.navi{
+	list-style-type: none;
+	line-height: 2; /*11;*/
+	display: inline-flex;
+	margin: 12px;
+	color: black;
+}
+html{
+    font-size: 10px; /* px signifie 'pixels': la taille de base pour la police est désormais 10 pixels de haut  */
+    font-family: "Open Sans", sans-serif; /* cela devrait être le reste du résultat obtenu à partir de Google fonts */
+	font-family :arial,"Times New Roman";
+	background-color: #051D40;
+	padding-left: 3em;
+	padding-right: 3em;
+}
+p{
+	color:white;
+	font-size:15px;
+}
+h1{
+	color:white;
+	text-align: center;
+	 font-size: 48px;
+}
+h3{color: white;
+}
+#logo{
+	display:block;
+	margin:auto;
+}
+label{
+	display:block;
+	color:white;
+	font-size:15px;
+}
+input,label{
+	margin:0.4rem 0;
+}
+form{
+	font-size:10px;
+}
+.connexion{
+	 float: right;
+	 font size:10px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #051D45/*#f0f2f5*/;
+}
+
+/* Style pour le menu de gauche */
+.side {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100vh;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.side ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.side ul li {
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.side ul li:hover {
+    color: #1877f2;
+}
+
+/* Style pour le conteneur principal (feed) */
+.container {
+    padding: 20px;
+}
+
+/* Style pour chaque post */
+.Post {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    padding: 12px;
+}
+
+.profil {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user {
+    font-weight: bold;
+    margin: 0;
+    color : black;
+}
+
+.desc {
+    margin: 10px 0;
+    color : black;
+}
+
+.like {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
